@@ -35,5 +35,5 @@ jobs:
         run: |
           docker login --username frankbigshuai --password ${{secrets.ACCESS_TOKEN}} ghcr.io
           docker build -t ghcr.io/frankbigshuai/ducks-service:latest --file Dockerfile .  
-          docker push ghcr.io/frankbihshuai/ducks-service:latest 
+          docker push ghcr.io/frankbigshuai/ducks-service:latest 
 
